@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    padding: 25px;
+    width: 100%;
+    min-height: 5%;
+    position: absolute;
+    text-align: center;
+    background: #1b1b1a;
+    color: white;
+    top: 0;
+  }
+  .navbarNav{
+    color: white;
+  }
+  .navbar-brand {
+    color: white;
+  }
+  
+  .nav-link{
+    color: white;
+  }
+  button{
+    color: rgb(209, 21, 21);
+  }
+  
+  footer {
+    padding: 15px;
+    text-align: center;
+    background: #1b1b1a;
+    width: 100%;
+    margin: 30px 0 0 -10px;
+    color: white;
+    font-size: 7.3px;
+    bottom: 0;
+    position: absolute;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #292424;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+}
+hr{
+    width: 80%;
+}
+h2{
+    font-size: 20px;
+}
+.contact-items{
+    display: flex;
+    margin: 30px auto;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+.customer-care,.write-us,.sales-market{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 28%;
+    margin: 30px auto;
+    padding: 35px 15px;
+    border-radius: 15px;
+    text-align: center;
+    min-width: 250px;
+    
+}
+.customer-care{
+    height: 250px;
+    box-shadow: 0 15px 15px green;
+    border: 1px solid green;
+}
+.write-us{
+    height: 250px;
+    box-shadow: 0 15px 15px red;
+    border: 1px solid red;
+}
+.sales-market{
+    height: 250px;
+    box-shadow: 0 15px 15px blue;
+    border: 1px solid blue;
+}
+p{
+    font-size: 15px;
+}
+button{
+    padding: 8px 16px;
+    font-size: 17px;
+    border-radius: 25px;
+    border: none;
+    margin: 15px auto;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+button:hover{
+    color: gray;
+}
+#cust-care{
+    background: green;
+
+    box-shadow: 0 0 5px black;
+}
+#write{
+    background: rgb(187, 15, 15);
+
+    box-shadow: 0 0 5px black;
+}
+#sales{
+    background: blue;
+    box-shadow: 0 0 5px black;
+}
+a{
+    font-size: 16px;
+}
+.customer-care a{
+    color: green;
+    text-shadow: 0 0 2px rgba(73, 129, 80, 0.637);
+}
+.sales-market a{
+    color: blue;
+    text-shadow: 0 0 2px rgba(76, 62, 158, 0.637);
+}
